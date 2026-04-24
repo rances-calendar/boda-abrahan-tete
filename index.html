@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Invitación de boda de Abrahan y Tete. 19 de diciembre de 2025, Amatus.">
+  <title>Abrahan y Tete - Invitación de Boda</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar fade-in">
+    <div class="nav-container">
+      <a class="nav-logo" href="#">A & T</a>
+      <div class="nav-links text-label-caps">
+        <a class="nav-link" href="#evento">Evento</a>
+        <a class="nav-link" href="#galeria">Galería</a>
+        <a class="nav-link" href="#regalos">Regalos</a>
+        <a class="nav-link active" href="#rsvp">RSVP</a>
+      </div>
+      <a class="btn-primary font-display text-label-caps" href="#rsvp" style="display: none;">RSVP</a>
+      <!-- Mobile Menu Button -->
+      <button class="menu-btn" id="mobile-menu-btn" aria-label="Abrir menú">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a class="nav-link text-label-caps" href="#evento">Evento</a>
+    <a class="nav-link text-label-caps" href="#galeria">Galería</a>
+    <a class="nav-link text-label-caps" href="#regalos">Regalos</a>
+    <a class="nav-link text-label-caps active" href="#rsvp">RSVP</a>
+  </div>
+
+  <header class="hero fade-in">
+    <div class="container hero-split" style="width: 100%;">
+      <div class="hero-left">
+        <span class="text-label-caps text-on-surface-variant">NOS CASAMOS</span>
+        <h1 class="hero-title">Abrahan <span class="ampersand">&</span> Tete</h1>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-right">
+        <div class="hero-date-location">
+          <p class="text-hero-date" style="color: var(--primary);">19 de diciembre de 2025</p>
+          <p class="text-hero-location" style="color: var(--on-surface-variant);">Xochitepec, Morelos</p>
+        </div>
+        <!-- Countdown -->
+        <div class="countdown fade-in">
+          <div class="countdown-item">
+            <span class="countdown-value" id="days">00</span>
+            <span class="text-label-caps countdown-label">DÍAS</span>
+          </div>
+          <div class="countdown-divider"></div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="hours">00</span>
+            <span class="text-label-caps countdown-label">HRS</span>
+          </div>
+          <div class="countdown-divider"></div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="minutes">00</span>
+            <span class="text-label-caps countdown-label">MIN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Event Details Section -->
+  <section class="section details-section fade-in" id="evento">
+    <div class="container">
+      <h2 class="text-headline-md text-center mb-16 font-display" style="color: var(--primary);">Detalles del evento</h2>
+      <div class="grid-2">
+        <!-- Venue Card -->
+        <div class="card">
+          <span class="material-symbols-outlined card-icon">church</span>
+          <h3 class="text-headline-sm mb-2 font-display" style="color: var(--primary);">Ceremonia & Recepción</h3>
+          <p class="text-body-lg mb-2" style="color: var(--on-surface-variant);">Amatus</p>
+          <p class="text-body-md mb-6" style="color: var(--outline);">República de Cuba 16, Centro, Xochitepec, Morelos</p>
+          <p class="text-label-caps mb-8" style="color: var(--primary);">1:30 PM</p>
+          <a class="btn-outline text-label-caps" href="https://maps.app.goo.gl/enfnv9seVpV1LDLt6?g_st=ic" target="_blank" rel="noopener noreferrer">Ver ubicación</a>
+        </div>
+        <!-- Dress Code Card -->
+        <div class="card" style="justify-content: center;">
+          <span class="material-symbols-outlined card-icon">checkroom</span>
+          <h3 class="text-headline-sm mb-4 font-display" style="color: var(--primary);">Código de vestimenta</h3>
+          <p class="text-body-lg" style="color: var(--on-surface-variant);">Formal</p>
+          <div style="display: flex; gap: 24px; margin-top: 16px; font-size: 36px; filter: grayscale(100%) opacity(0.6);">
+            <span>👔</span>
+            <span>👗</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section gallery-section fade-in" id="galeria">
+    <div class="container">
+      <h2 class="text-headline-md text-center mb-16 font-display" style="color: var(--primary);">Galería</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzIagM1av3gp6A21SwX75WJf1_JRtG1FDVZ2HAynkMXM1mECO8e9fM2swm26W8ycY-L4IMgcZfSudC1oe7eo6jEPnu4Hb5nh32pLj2PbO7D17UaIDRzDT1w1Rjcvp_CqFdV9_somsFIK5jlvPOMIBnA5dFpk_GwF1WfnJ2eK1Jz3cnYh9hYJl1htZaMFBd_EoBPUddJJjrYOuxMAqgkw9YHIHA-T5xQq4hCKBmA_ENASADfUSGscbxlz8hzPycsNgSOBznVQ07Tp4" alt="Pareja tomados de la mano" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBiV8cTdS30i6C8TVL8-uDrH7rv6t4mJsHtFeaDNFVnE1YxQwPOtYDl1Hw0kYzqCYYn8ghxCFOG2-S9eISfX0v2sILvQ488cuBHjaS4Vmrh321sdDp-aMFKmPYZ-wo9C1kgNWpf5FvJmmSaD7C6mBlvDQl_sqBlBFXGLdqeSOURurQ437nUof-CseplkXfG8j-iVLOX3tErLPxbCi_6-fE8EnDTPjoHFgnuog1tCzvATXlKTcLq1VgtLYtikMAnubCsXzyBBlR7UU" alt="Anillos de boda" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCi5Vm91LG_D1AyDmOJuk_HqXZscAaWaqdpGDBscefgjer_MXE3kTNQJ0io3JdOs6fZPfP0HbJJu6x2h-DUsmGBR7cHfGdBF4vv6-sTcyp4eGiy3EXihpZ1EU1WJA6DzrZgsGf_2YHiPDsyZBPyAlZusPo-EavrgNoyKlQtWQ44xpAlKLSpvD9DMLJ6i8JFPBtqb2aDDqf9AakNJ86ncERcQbYTdEEAIfGH-D0qEffniS1UW3ZNUcZaSymV8oTQrI0LPHD61GVIBjM" alt="Ramo de novia elegante" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBO4GjwlTpWMzqo-AmZP2oVl6Cy15af8Gq7_R4nufwNX4v0A9qKrZgxY1dQtB3laKa991BPC76X4GITUFOnk6gDMANZcN6DzKJriY2owDy2oLdAMF4GVjo-JlB5d-9sFwFEM7I5S4wkoLC2BiMQan_wbyG-IsCQ8EQDmWxwm8hUvc_lVmZRzeqBTp5_Y0tnioBGXdYv4UX-jQMqpgTJr3ya5wXMLd_w8qtkEjQZoqSj8my8UM23tlbD0-kru89V-Q73qIqaZhRUzlM" alt="Mesa elegante de recepción" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RSVP Section -->
+  <section class="section rsvp-section fade-in" id="rsvp">
+    <div class="container text-center">
+      <h2 class="text-headline-md mb-4 font-display" style="color: var(--primary);">Confirma tu asistencia</h2>
+      <p class="text-body-md mb-12" style="color: var(--on-surface-variant);">Confirma antes de Octubre</p>
+      
+      <form class="rsvp-form" id="rsvp-form">
+        <div class="form-group">
+          <label class="form-label text-label-caps" for="nombre">Nombre Completo</label>
+          <input class="form-input" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label text-label-caps" for="restricciones">Restricciones Alimentarias</label>
+          <input class="form-input" type="text" id="restricciones" name="restricciones" placeholder="Alergias, vegetariano, etc. (Opcional)" />
+        </div>
+        <button class="btn-primary btn-submit text-label-caps" type="submit">Confirmar asistencia</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Gifts Section -->
+  <section class="section gifts-section fade-in" id="regalos">
+    <div class="container text-center">
+      <h2 class="text-headline-md mb-12 font-display" style="color: var(--primary);">Regalos</h2>
+      <p class="text-body-md mb-12" style="color: var(--on-surface-variant); max-width: 600px; margin-left: auto; margin-right: auto;">
+        Su presencia es el mejor regalo. Si desean tener un detalle con nosotros, pueden hacerlo a través de las siguientes opciones.
+      </p>
+      
+      <div class="gifts-container">
+        <!-- <div class="card gift-card">
+          <span class="material-symbols-outlined card-icon">card_giftcard</span>
+          <h3 class="text-headline-sm mb-6 font-display" style="color: var(--primary);">Mesa de Regalos</h3>
+          <a class="btn-outline text-label-caps" href="#">Ver Mesa</a>
+        </div> -->
+        <!-- Only showing bank transfer since no URL provided for Mesa -->
+        <div class="card gift-card" style="flex: none; max-width: 400px; margin: 0 auto;">
+          <span class="material-symbols-outlined card-icon">account_balance</span>
+          <h3 class="text-headline-sm mb-4 font-display" style="color: var(--primary);">Transferencia</h3>
+          <p class="text-body-md mb-2" style="color: var(--on-surface-variant);">Próximamente compartiremos</p>
+          <p class="text-body-md" style="color: var(--on-surface-variant);">los datos bancarios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer fade-in">
+    <h2 class="footer-logo">A & T</h2>
+    <!--
+    <div class="footer-links">
+      <a class="footer-link" href="#">Privacidad</a>
+      <a class="footer-link" href="#">Contacto</a>
+    </div>
+    -->
+    <p class="footer-copy">© 2025 Abrahan y Tete. Hecho con amor.</p>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
